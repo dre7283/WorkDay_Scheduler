@@ -89,12 +89,22 @@ textarea {
   display: block;
 }
 
-@media screen and (max-width:768px) {
- body{ 
+@media screen and (max-width:767px) {
+ .row{ 
   width:100%;
   display: inline-block;
  }
 }
+
+
+@media screen and (max-width:600px) {
+  .row{ 
+   width:100%;
+   display: inline-block;
+  }
+ }
+
+
 
 @media screen and (max-width:540px) {
   .row{ 
