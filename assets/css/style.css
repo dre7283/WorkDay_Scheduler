@@ -88,3 +88,19 @@ textarea {
 .show{
   display: block;
 }
+
+@media screen and (max-width:768px) {
+ body{ 
+  width:100%;
+  display: inline-block;
+ }
+}
+
+@media screen and (max-width:540px) {
+  .row{ 
+  width: 100%;
+  display:inline-block;
+  
+  }
+  
+ }
