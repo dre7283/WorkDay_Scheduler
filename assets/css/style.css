@@ -2,6 +2,9 @@
 :root{
   --dark: #000;
   --light: #fff;
+  --past: #e3e4e6;
+  --present: #fa8072;
+  --future: #81d8d0;
 }
 
 body {
@@ -49,17 +52,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: var(--past);
   color: var(--light);
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: var(--present);
   color: var(--light);
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: var(--future);
   color: var(--light);
 }
 
@@ -74,4 +77,14 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.alert{
+  display:none;
+  padding-bottom: 5px;
+  color:var(--dark)
+}
+
+.show{
+  display: block;
 }
